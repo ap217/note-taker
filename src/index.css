@@ -82,6 +82,12 @@ textarea:focus {
 	word-break: break-all;
 }
 
+.note:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+
 .note-footer {
 	display: flex;
 	align-items: center;
@@ -90,6 +96,11 @@ textarea:focus {
 
 .delete-icon {
 	cursor: pointer;
+	opacity: 70%;
+}
+
+.delete-icon:hover {
+	opacity: 100%;
 }
 
 .search {
